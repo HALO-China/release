@@ -1,2 +1,125 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://Meekdai.github.io/Gmeek-template</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://Meekdai.github.io/Gmeek-template</link></image><lastBuildDate>Thu, 14 Mar 2024 09:17:29 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>请接着之后的安装步骤执行</title><link>https://Meekdai.github.io/Gmeek-template/post/qing-jie-zhao-zhi-hou-de-an-zhuang-bu-zou-zhi-xing.html</link><description>如果你点击了`READM.md`的链接后，看到了这个页面，请继续之后的安装步骤执行。</description><guid isPermaLink="true">https://Meekdai.github.io/Gmeek-template/post/qing-jie-zhao-zhi-hou-de-an-zhuang-bu-zou-zhi-xing.html</guid><pubDate>Thu, 14 Mar 2024 09:15:10 +0000</pubDate></item><item><title>这是Gmeek模板仓库</title><link>https://Meekdai.github.io/Gmeek-template/post/zhe-shi-Gmeek-mo-ban-cang-ku.html</link><description>通过这个模板创建库，可以大大减少部署Gmeek博客的配置步骤。</description><guid isPermaLink="true">https://Meekdai.github.io/Gmeek-template/post/zhe-shi-Gmeek-mo-ban-cang-ku.html</guid><pubDate>Wed, 20 Dec 2023 07:42:24 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://HALO-China.github.io/release</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HALO-China.github.io/release</link></image><lastBuildDate>Wed, 13 Aug 2025 12:24:28 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>HALO 4.1 发布说明</title><link>https://HALO-China.github.io/release/post/HALO%204.1%20-fa-bu-shuo-ming.html</link><description>&lt;h1&gt;HALO 4.1 发布说明&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;软件更新 | 2025 年 2 月&lt;/strong&gt;&lt;br&gt;仅供研究使用&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;HALO v4.1&lt;/h2&gt;
+
+&lt;h3&gt;新功能&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;图像制作器（Figure Maker）：保存正在进行的图像以便稍后编辑&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;遵循 HALO Link 的研究级权限&lt;/li&gt;
+      &lt;li&gt;重新设计的布局，与新的 HALO Link 图像制作器保持一致&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;图像视图设置应用&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;每个通道单独应用自动适配视图设置计算&lt;/li&gt;
+      &lt;li&gt;批量应用视图设置，无需导出/导入&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;图像视图设置直方图&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;可比较多个已打开图像的直方图&lt;/li&gt;
+      &lt;li&gt;显示相对强度值&lt;/li&gt;
+      &lt;li&gt;显示真实伽马值和伽马曲线&lt;/li&gt;
+      &lt;li&gt;可使用对数视图&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;高通量图像（highplexed images）表型设置优化&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;新的设置选择网格&lt;/li&gt;
+      &lt;li&gt;一次性为所有通道设定逻辑&lt;/li&gt;
+      &lt;li&gt;实时查看每个表型的调优标记&lt;/li&gt;
+      &lt;li&gt;分析标签页中显示表型预览列表&lt;/li&gt;
+      &lt;li&gt;支持将表型逻辑导出为 &lt;code&gt;.csv&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;HALO 图像写入器生成 OME.TIFF 图像&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;拼接组件 &lt;code&gt;.qptiff&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;融合的序列染色&lt;/li&gt;
+      &lt;li&gt;导出全分辨率图像&lt;/li&gt;
+      &lt;li&gt;静态标记图像&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;更新的用户通知&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;所有通知显示在 HALO 右下角&lt;/li&gt;
+      &lt;li&gt;支持同时显示多个提醒&lt;/li&gt;
+      &lt;li&gt;点击即可关闭通知&lt;/li&gt;
+      &lt;li&gt;可选记录错误消息以便故障排查&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;分析模块更新&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;高维分析模块（High Dimensional Analysis） - 新增&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;无监督聚类&lt;/li&gt;
+      &lt;li&gt;降维图&lt;/li&gt;
+      &lt;li&gt;在图像、对象数据和图表之间保持交互性&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Highplex FL 模块 v5.0&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;支持阈值辅助（Threshold Assist）工作流&lt;/li&gt;
+      &lt;li&gt;支持上文所述的高通量表型设置优化&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;HALO AI&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;AI 标注工具改进&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;改进的 UI/UX&lt;/li&gt;
+      &lt;li&gt;支持多图像&lt;/li&gt;
+      &lt;li&gt;原生支持 FL 图像&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;分类器流水线&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;标记下拉菜单显示分类器名称&lt;/li&gt;
+      &lt;li&gt;第一个标记叠加层显示最终步骤结果&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AI 应用（AI Apps）支持改进&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;简化批量分析&lt;/li&gt;
+      &lt;li&gt;在 HALO 界面中提供 AI Apps 用户指南&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;额外的批量工作流&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;批量将分类器训练区域移动到标注标签页&lt;/li&gt;
+      &lt;li&gt;批量删除验证标注集&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;支持导出最终定型的分类器&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;已移除的功能&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;手动点击计数器&lt;/strong&gt; - 已由针状标注工作流替代&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;GRPC 服务器&lt;/strong&gt; - 已由 GraphQL 服务器取代，成为唯一 API&lt;/li&gt;
+  &lt;li&gt;自 HALO v4.0 起，不再测试或正式支持与 eSlide Manager 的集成&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h2&gt;即将移除的功能&lt;/h2&gt;
+&lt;p&gt;无&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;每个 HALO 版本都会新增功能和更新模块。</description><guid isPermaLink="true">https://HALO-China.github.io/release/post/HALO%204.1%20-fa-bu-shuo-ming.html</guid><pubDate>Tue, 08 Apr 2025 08:29:41 +0000</pubDate></item></channel></rss>
