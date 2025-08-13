@@ -1,6 +1,7 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
+    "title":"HALO中文资讯发布站",
+    "subTitle":"如在维保期内且需要升级，请联系HALO中文支持",
+    "avatarUrl":"https://avatars.githubusercontent.com/u/226232614?s=400&u=de0d8ef4241c07f0f78252ac51af4b20828cd529&v=4",
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script>",
     "GMEEK_VERSION":"last"
 }
